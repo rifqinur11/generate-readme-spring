@@ -1,0 +1,13 @@
+{
+    "name": "spring-readme-generator",
+    "version": "1.0.0",
+    "description": "Global CLI tool to generate standardized README for Spring Boot projects",
+    "main": "index.js",
+    "bin": {
+        "gen-readme": "./index.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "inquirer": "^9.2.12"
+    }
+}
